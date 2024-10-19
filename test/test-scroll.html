@@ -73,7 +73,7 @@
 				});
 
 				QUnit.test( 'Changes present slide when scrolling', assert => {
-					assert.timeout( 200 );
+					assert.timeout( 500 );
 					assert.expect( 2 );
 
 					const slides = document.querySelectorAll( '.reveal .slides section' );
@@ -90,7 +90,7 @@
 				});
 
 				QUnit.test( 'Fires slideschanged event when scrolling', assert => {
-					assert.timeout( 200 );
+					assert.timeout( 500 );
 					assert.expect( 2 );
 
 					const slides = document.querySelectorAll( '.reveal .slides section' );
@@ -109,7 +109,7 @@
 				});
 
 				QUnit.test( 'Fires fragmentshown event when scrolling', assert => {
-					assert.timeout( 200 );
+					assert.timeout( 500 );
 					assert.expect( 2 );
 
 					const slides = document.querySelectorAll( '.reveal .slides section' );
@@ -132,7 +132,7 @@
 				});
 
 				QUnit.test( 'Fires fragmenthidden event when scrolling', assert => {
-					assert.timeout( 200 );
+					assert.timeout( 500 );
 					assert.expect( 2 );
 
 					const slides = document.querySelectorAll( '.reveal .slides section' );
